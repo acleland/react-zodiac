@@ -2,6 +2,8 @@ import React from 'react';
 import './Main.css';
 import Sign from '../Sign/Sign';
 
+import { zodiac } from '../../data';
+
 const aq = {
   name: 'aquarius',
   dates: 'Jan 21 - Feb 19',
@@ -10,7 +12,9 @@ const aq = {
 export default function Main() {
   return (
     <main>
-      <Sign key={aq.name} name={aq.name} dates={aq.dates} />
+      {zodiac.map((sign) => (
+        <Sign key={sign.name} name={sign.name} dates={sign.dates} />
+      ))}
     </main>
   );
 }

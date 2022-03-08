@@ -1,0 +1,9 @@
+header {
+  background-color: var(--grey);
+  color: white;
+  padding: 0.4em;
+}
+
+header p {
+  font-weight: bolder;
+}

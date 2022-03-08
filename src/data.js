@@ -47,4 +47,4 @@ export const zodiac = [
     name: 'virgo',
     dates: 'Aug 23 - Sep 22',
   },
-]
+];

@@ -4,11 +4,6 @@ import Sign from '../Sign/Sign';
 
 import { zodiac } from '../../data';
 
-const aq = {
-  name: 'aquarius',
-  dates: 'Jan 21 - Feb 19',
-};
-
 export default function Main() {
   return (
     <main>

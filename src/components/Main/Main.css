@@ -1,0 +1,12 @@
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background-color: var(--pink);
+  /* height: 80vh; */
+  padding-left: 10%;
+  padding-right: 10%;
+  height: 80vh;
+}

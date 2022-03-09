@@ -1,0 +1,14 @@
+.zodiac-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1em;
+  background-color: var(--light);
+  padding: 0.5em;
+  border-radius: 0.5em;
+  height: 150px;
+}
+
+.zodiac-card:hover {
+  background-color: #abadf8;
+}

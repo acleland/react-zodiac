@@ -1,7 +1,11 @@
 header {
-  background-color: var(--grey);
+  background-color: var(--dark);
   color: white;
-  padding: 0.4em;
+  /* padding: 0.4em; */
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 header p {

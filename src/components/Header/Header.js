@@ -4,7 +4,7 @@ import './Header.css';
 export default function Header() {
   return (
     <header>
-      <p>What&apos;s your sign?</p>
+      <h1>What&apos;s your sign?</h1>
     </header>
   );
 }

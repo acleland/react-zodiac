@@ -6,4 +6,9 @@
   background-color: var(--light);
   padding: 0.5em;
   border-radius: 0.5em;
+  height: 150px;
+}
+
+.zodiac-card:hover {
+  background-color: #abadf8;
 }
